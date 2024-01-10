@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.chessBoard{
+    border: 10px solid rgb(69, 26, 1);
+    outline: 15px solid rgb(69, 26, 1);
+    outline-style: groove;
+    border-style: groove;
+    width: max-content;
+    margin: 2rem;
+}
+.row{
+    display: flex;
+}
+.square{
+    height: 75px;
+    width: 75px;
+}
